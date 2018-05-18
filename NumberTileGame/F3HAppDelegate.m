@@ -13,6 +13,20 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    //添加闪屏
+    
+    self.window.rootViewController.view.alpha = 0;
+    UIImageView *_splashImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"Splash"]];
+    _splashImageView.frame = [UIScreen mainScreen].bounds;
+    [self.window addSubview:_splashImageView];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [UIView animateWithDuration:0.5 animations:^{
+            self.window.rootViewController.view.alpha = 1.0;
+        } completion:^(BOOL finished) {
+            [_splashImageView removeFromSuperview];
+        }];
+    });
+    
     return YES;
 }
 							
