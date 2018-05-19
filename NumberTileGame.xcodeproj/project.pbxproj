@@ -15,7 +15,6 @@
 		1A3487C118DEAD6E00D021C3 /* F3HAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3487C018DEAD6E00D021C3 /* F3HAppDelegate.m */; };
 		1A3487C418DEAD6E00D021C3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3487C218DEAD6E00D021C3 /* Main_iPhone.storyboard */; };
 		1A3487CA18DEAD6E00D021C3 /* F3HViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3487C918DEAD6E00D021C3 /* F3HViewController.m */; };
-		1A3487CC18DEAD6E00D021C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3487CB18DEAD6E00D021C3 /* Images.xcassets */; };
 		1A3487D318DEAD6E00D021C3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3487D218DEAD6E00D021C3 /* XCTest.framework */; };
 		1A3487D418DEAD6E00D021C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3487B018DEAD6E00D021C3 /* Foundation.framework */; };
 		1A3487D518DEAD6E00D021C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3487B418DEAD6E00D021C3 /* UIKit.framework */; };
@@ -34,6 +33,7 @@
 		1A34882518E169AA00D021C3 /* F3HScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A34882418E169AA00D021C3 /* F3HScoreView.m */; };
 		1A34882818E1713E00D021C3 /* F3HControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A34882718E1713E00D021C3 /* F3HControlView.m */; };
 		1A92D000191A016600E35C6C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A92CFFF191A016600E35C6C /* QuartzCore.framework */; };
+		B83E132720AF0B99007A567E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83E132620AF0B99007A567E /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,6 @@
 		1A3487C318DEAD6E00D021C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		1A3487C818DEAD6E00D021C3 /* F3HViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = F3HViewController.h; sourceTree = "<group>"; };
 		1A3487C918DEAD6E00D021C3 /* F3HViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F3HViewController.m; sourceTree = "<group>"; };
-		1A3487CB18DEAD6E00D021C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1A3487D118DEAD6E00D021C3 /* NumberTileGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberTileGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3487D218DEAD6E00D021C3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1A3487DA18DEAD6E00D021C3 /* NumberTileGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NumberTileGameTests-Info.plist"; sourceTree = "<group>"; };
@@ -90,6 +89,7 @@
 		1A34882618E1713E00D021C3 /* F3HControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F3HControlView.h; path = Views/F3HControlView.h; sourceTree = "<group>"; };
 		1A34882718E1713E00D021C3 /* F3HControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F3HControlView.m; path = Views/F3HControlView.m; sourceTree = "<group>"; };
 		1A92CFFF191A016600E35C6C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B83E132620AF0B99007A567E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,10 +153,10 @@
 			children = (
 				B83E131520AE523D007A567E /* Components */,
 				B83E131420AE5165007A567E /* Controller */,
-				1A3487CB18DEAD6E00D021C3 /* Images.xcassets */,
 				1A3487FF18E1461F00D021C3 /* Models */,
 				1A34880018E1463E00D021C3 /* Views */,
 				1A3487B718DEAD6E00D021C3 /* Main */,
+				B83E132620AF0B99007A567E /* Images.xcassets */,
 			);
 			path = NumberTileGame;
 			sourceTree = "<group>";
@@ -326,7 +326,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A3487CC18DEAD6E00D021C3 /* Images.xcassets in Resources */,
+				B83E132720AF0B99007A567E /* Images.xcassets in Resources */,
 				1A3487C418DEAD6E00D021C3 /* Main_iPhone.storyboard in Resources */,
 				1A3487BB18DEAD6E00D021C3 /* InfoPlist.strings in Resources */,
 			);
