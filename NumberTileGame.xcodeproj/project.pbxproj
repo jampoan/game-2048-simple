@@ -247,6 +247,9 @@
 		B83E132920B00C6A007A567E /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				B8A4BE7A20C60B780027DE98 /* GetScreenShot */,
+				B8A4BE7920C60B640027DE98 /* WeChatShare */,
+				B8A4BE7820C60B440027DE98 /* QQShare */,
 				B83E132A20B00CC4007A567E /* BaseGame */,
 			);
 			name = Features;
@@ -260,6 +263,27 @@
 				1A34880018E1463E00D021C3 /* Views */,
 			);
 			name = BaseGame;
+			sourceTree = "<group>";
+		};
+		B8A4BE7820C60B440027DE98 /* QQShare */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = QQShare;
+			sourceTree = "<group>";
+		};
+		B8A4BE7920C60B640027DE98 /* WeChatShare */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = WeChatShare;
+			sourceTree = "<group>";
+		};
+		B8A4BE7A20C60B780027DE98 /* GetScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = GetScreenShot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
